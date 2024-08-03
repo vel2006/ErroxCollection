@@ -62,5 +62,5 @@ elif [[ $1 == "-help" ]]; then
 	echo "Happy pentesting"
 else
 	#FIRST TIME?#
-	echo "Run './Errox_7Server.sh -help' or read 'README.md' for assistance"
+	echo "Run './Errox_7Server.sh -help' for assistance"
 fi
