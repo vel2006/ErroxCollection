@@ -20,3 +20,7 @@ A port scanner for Unix systems, can only scan IPv4 addresses
 ## Errox_9:
 
 A network scanner for Unix systems, can only detect devices on same network
+
+## Errox_Collector:
+
+A python file that searches for metadata and other information in scripts
