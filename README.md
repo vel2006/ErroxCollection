@@ -9,7 +9,7 @@ With each one of your help I have been able to make these files exist and come t
 
 ErroxCollection is, well, a collection of every Errox file I have made. Some that dont even have their own repo will be held here soon enough.
 
-## Errox
+## Errox:
 
 The script that started it all, Errox.java is a simple java script that will simply open 100 popups that say "ERROX!" with the ERROX title
 
