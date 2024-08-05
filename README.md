@@ -13,18 +13,22 @@ ErroxCollection is, well, a collection of every Errox file I have made. Some tha
 
 The script that started it all, Errox.java is a simple java script that will simply open 100 popups that say "ERROX!" with the ERROX title
 
+## Errox_2:
+
+Errox_2.py was my second time dipping into python programing, it took me a whole month to create. It works by going through the files in its current directory and then hashing them with SHA512
+
 ## Errox_7:
 
-Remote access software for Unix systems that have nc installed, only works if both users are on the same network
+Errox_7 was my first post here on GitHub, it is remote access software for Unix systems that have nc installed, only works if both users are on the same network
 
 ## Errox_8:
 
-A port scanner for Unix systems, can only scan IPv4 addresses
+Errox_8 was truly one of my best scripts, it not only finds open ports (besided ones the user is blocked on), and is just a basic port scanner for Unix systems, can only scan IPv4 addresses
 
 ## Errox_9:
 
-A network scanner for Unix systems, can only detect devices on same network
+Errox_9 was my first time trying out things like arp packets, and I think it went well and works as a network scanner for Unix systems, can only detect devices on same network.
 
 ## Errox_Collector:
 
-A python file that searches for metadata and other information in scripts
+Errox_Collector is one of my newest works, I have used it in some real applications when I was in my cybersecurity class, it is a python file that searches for metadata and other information in scripts
