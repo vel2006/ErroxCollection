@@ -17,6 +17,10 @@ The script that started it all, Errox.java is a simple java script that will sim
 
 Errox_2.py was my second time dipping into python programing, it took me a whole month to create. It works by going through the files in its current directory and then hashing them with SHA512
 
+## Errox_3:
+
+Errox_3.sh was my first time trying out Bash scripting. It has the same idea as Errox_2, but without the spreading throught the file system. I dont quite know why I made it.
+
 ## Errox_7:
 
 Errox_7 was my first post here on GitHub, it is remote access software for Unix systems that have nc installed, only works if both users are on the same network
