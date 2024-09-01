@@ -115,8 +115,9 @@ def CollectImageMetadata(input_file):
         with open(f"{input_file}_metadata.txt", "w") as file:
             with open(input_file, "rb") as innerFile:
                 tags = exifread.process_file(innerFile)
-            for tag in tags.keys():
-                file.write(f"{tag}: {tags[tag]}\n")
+            with open("metadata.txt", "w") as file:
+                for tag in tags.keys():
+                    file.write(f"{tag}: {tags[tag]}\n")
     except:
         with open(input_file, "rb") as file:
             tags = exifread.process_file(file)
