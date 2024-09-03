@@ -35,4 +35,8 @@ Errox_9 was my first time trying out things like arp packets, and I think it wen
 
 ## Errox_Collector:
 
-Errox_Collector is one of my newest works, I have used it in some real applications when I was in my cybersecurity class, it is a python file that searches for metadata and other information in scripts
+Errox_Collector is a python file that searches for metadata and other information in scripts, images, .pyc files and more to come!
+
+## ErroxWeb:
+
+ErroxWeb is a webscraper, it works by checking the response code of a page, if its 200 it gets added.
