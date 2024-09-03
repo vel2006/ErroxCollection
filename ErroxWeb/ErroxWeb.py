@@ -7,7 +7,7 @@ print("| |___| |  | | | (_) >  <  \\ V  V /  __/ |_) |")
 print("|_____|_|  |_|  \\___/_/\_\  \\_/\\_/ \\___|_.__/")
 print("\nProgramed by: That1EthicalHacker\nYoutube: @That1EthicalHacker\nGitHub: https://github.com/vel2006")
 if sys.argv[1] == "-h":
-    print("ERROX SITE Help page.\nErroxSite.py works by scrapping for pages on a site passed. It only looks for publically avalable ones.")
+    print("ERROX WEB Help page.\nErroxWeb.py works by scrapping for pages on a site passed. It only looks for publically avalable ones.")
     print("Argument 1:\n\tFile extention file, for the love of everything good in tech, have each one on their own line.")
     print("Argument 2:\n\tDirectory / File list, same thing, have them on their own lines.")
     print("Argument 3:\n\tTarget URL. (if an ip, format http:[ip]:[port] or https:[ip]:[port]) will default to port 80 / 443.")
@@ -18,7 +18,7 @@ if sys.argv[1] == "-h":
     print("\t\tpython3 ErroxSite.py extentionsFile.txt pagesFile.txt http://127.0.0.1:1234")
     print("Contents of Files File:\n\tforum\n\tblog\n\tcourses")
     print("Contents of Extentions File:\n\t.php\n\t.phps\n\t.html\n\t.php7")
-    print("Misc:\n\tErroxWeb.py will search for index[extention] by default, done have it in your list.\n\tErroxWeb.py DOES NOT EARCH FOR SUBDOMAINS! STOP ASKING!")
+    print("Misc:\n\tErroxWeb.py will search for index.[extention] by default, don\'t have it in your list.\n\tErroxWeb.py DOES NOT EARCH FOR SUBDOMAINS! STOP ASKING!")
     exit()
 if len(sys.argv) != 4:
     print("[!] Error: Incorrect amount of arguments!\n\tUse -h for help.")
