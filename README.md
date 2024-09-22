@@ -40,3 +40,7 @@ Errox_Collector is a python file that searches for metadata and other informatio
 ## ErroxWeb:
 
 ErroxWeb is a webscraper, it works by checking the response code of a page, if its 200 or 403 it gets added.
+
+## ErroxVoice:
+
+ErroxVoice is a basic TTS program, all it does is convert the input text into TTS and saves it into a file. It is really more of an automation script that anything else, this was an older file I dug out of my archives and through it needed some love. After some basic fixings in terms of logic and user input, I put it here.
