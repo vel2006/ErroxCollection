@@ -39,7 +39,7 @@ Errox_Collector is a python file that searches for metadata and other informatio
 
 ## ErroxWeb:
 
-ErroxWeb is a webscraper, it works by checking the response code of a page, if its 200 or 403 it gets added.
+ErroxWeb is a webscraper, it works by checking the response code of a page, if its 200 or 403 it gets added to a list of pages. It can search for directories, pages, subdomains, and page extentions if the user inputs a list for them. It works by using a dictonary for each of the options.
 
 ## ErroxVoice:
 
