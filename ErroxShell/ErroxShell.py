@@ -97,7 +97,7 @@ def extract_shell_code(target_file):
     print(f"{misc_head}Creating a hex form of \'shellcode.bin\'...")
     with open("hex_shellcode.txt", 'w') as file:
         for byte in raw_shell_code:
-            file.write(f"{byte}\n")
+            file.write(f"0x{byte}\n")
         file.close()
     print(f"{misc_head}Wrote hex for of \'shellcode.bin\' to \'hex_shellcode.txt\'.")
     key = gen_xor_key()
