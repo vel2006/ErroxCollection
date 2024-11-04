@@ -139,7 +139,7 @@ if __name__ == '__main__':
     import pefile
     import psutil
     if len(sys.argv) != 2:
-        print(f"{info_head}usage: python(3) ErroxShell.py <exe_file_path>")
+        print(f"{error_head}Usage: python(3) ErroxShell.py <exe_file_path>")
         exit(1)
     exe_path = sys.argv[1]
     extract_shell_code(exe_path)
